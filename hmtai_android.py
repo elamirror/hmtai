@@ -25,6 +25,7 @@ def main():
 		f.write(el)
 		print(f"\rDONE: {c}", end = "")
 		c += 1
+	print()
 
 if __name__ == "__main__":
 	locker = Lock()
